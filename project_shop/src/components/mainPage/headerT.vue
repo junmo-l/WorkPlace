@@ -3,7 +3,7 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Juna'shoes</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -32,7 +32,7 @@
                 <a class="nav-link active" aria-current="page">이준모님</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">로그아웃</a>
+                <a class="nav-link" href="#">Logout</a>
               </li>
               <!-- <li class="nav-item dropdown">
                 <a
@@ -54,7 +54,7 @@
                 </ul>
               </li> -->
               <li class="nav-item">
-                <a class="nav-link" href="#">장바구니</a>
+                <a class="nav-link" href="#">Wishlist</a>
               </li>
             </ul>
           </div>
@@ -80,11 +80,12 @@ export default {
 </script>
 
 <style scoped>
-/* header,
-div {
-  line-height: 150px;
-  height: 25vh;
-  width: 100%;
-  background-color: tomato;
-} */
+.d-flex {
+  position: absolute;
+  left: 140px;
+}
+#navbarSupportedContent {
+  position: absolute;
+  right: 10px;
+}
 </style>
