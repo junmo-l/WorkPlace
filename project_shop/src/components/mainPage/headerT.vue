@@ -1,27 +1,22 @@
 <template>
   <div>
+    <div class="top-logo">
+      <ul>
+        <li>Juna'shoes</li>
+        <!-- <li>logo</li> -->
+      </ul>
+    </div>
     <header>
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Juna'shoes</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
             <button class="btn btn-outline-success" type="submit">
               Search
             </button>
@@ -71,19 +66,42 @@ export default {
       exampleData: "",
     };
   },
-  setup() {},
-  created() {},
-  mounted() {},
-  unmounted() {},
+  setup() { },
+  created() { },
+  mounted() { },
+  unmounted() { },
   methods: {},
 };
 </script>
 
 <style scoped>
+.top-logo {
+  /* padding: 10px; */
+  /* background-color: antiquewhite; */
+  text-align: left;
+  font-size: 50px;
+}
+
+.top-logo>ul {
+  list-style: none;
+  margin: 0px;
+}
+
+.top-logo>ul>li {
+  background-image: url(../../assets/image/sneakers.png);
+  background-repeat: no-repeat;
+  /* line-height: 40px; */
+  /* 줄간격 */
+  background-position: left center;
+  background-size: contain;
+  padding-left: 100px;
+}
+
 .d-flex {
   position: absolute;
-  left: 140px;
+  left: 100px;
 }
+
 #navbarSupportedContent {
   position: absolute;
   right: 10px;

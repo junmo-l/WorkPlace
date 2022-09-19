@@ -1,7 +1,11 @@
 <template>
   <div>
     <section>
-      <h1>섹션</h1>
+      <div id="im">
+        <p>
+        <h5>You have to fight to reach your dream</h5>
+        </p>
+      </div>
     </section>
   </div>
 </template>
@@ -13,19 +17,40 @@ export default {
       exampleData: "",
     };
   },
-  setup() {},
-  created() {},
-  mounted() {},
-  unmounted() {},
+  setup() { },
+  created() { },
+  mounted() { },
+  unmounted() { },
   methods: {},
 };
 </script>
 
 <style scoped>
 section {
+  position: relative;
   line-height: 150px;
-  height: 25vh;
+  height: 50vh;
   width: 100%;
-  background-color: #42b983;
+  /* background-color: #42b983; */
+  background-image: url(../../assets/image/889213.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* margin: -150px 0 0 -150px; */
+  transform: translate(-50%, -50%);
+  /* left: 50%; */
+  height: 20vh;
+  width: 20%;
+  background-color: aquamarine;
+}
+
+p>h5 {
+  position: relative;
+  top: 40%;
 }
 </style>

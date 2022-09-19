@@ -184,7 +184,7 @@ input[type="text"] {
 
 #send {
   float: left;
-  margin: 2rem 1rem 1rem 2rem;
+  margin: 2rem 1rem 3rem 2rem;
   padding: 1rem 2rem;
   color: white;
   background-color: #555555;
