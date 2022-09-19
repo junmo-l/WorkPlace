@@ -12,6 +12,8 @@ import sectionB from "@/components/mainPage/sectionB";
 import articleB from "@/components/mainPage/articleB";
 import footerB from "@/components/mainPage/footerB";
 import login from "@/components/login/login";
+import signup from "@/components/join/signup";
+
 
 const app = createApp(App);
 
@@ -20,5 +22,7 @@ app.component("sectionB", sectionB);
 app.component("articleB", articleB);
 app.component("footerB", footerB);
 app.component("login", login);
+app.component("signup", signup);
+
 
 app.use(store).use(BootstrapVue3).use(router).mount("#app");
