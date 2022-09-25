@@ -83,12 +83,13 @@ export default {
 }
 
 .top-logo>ul {
-  list-style: none;
-  margin: 0px;
+  /* list-style: none; */
+  margin: 0px 0px 10px 20px;
+  padding: 0px;
 }
 
 .top-logo>ul>li {
-  background-image: url(../../assets/image/sneakers.png);
+  background-image: url(../../assets/image/logo1.png);
   background-repeat: no-repeat;
   /* line-height: 40px; */
   /* 줄간격 */
@@ -105,5 +106,15 @@ export default {
 #navbarSupportedContent {
   position: absolute;
   right: 10px;
+}
+
+.btn-outline-success{
+  color : black;
+  border-color: black;
+}
+.btn-outline-success:hover{
+  color : white;
+  background-color: black;
+  border-color: black;
 }
 </style>

@@ -1,9 +1,13 @@
 <template>
   <div>
     <section>
+      <div id="main">
+        <div>
+        </div>
+      </div>
       <div id="im">
         <p>
-        <h5>You have to fight to reach your dream</h5>
+        <!-- <h5>Just Do It!</h5> -->
         </p>
       </div>
     </section>
@@ -27,12 +31,26 @@ export default {
 
 <style scoped>
 section {
-  position: relative;
+  /* position: relative; */
   line-height: 150px;
-  height: 50vh;
+  height: 700px;
   width: 100%;
-  /* background-color: #42b983; */
-  background-image: url(../../assets/image/889213.jpg);
+  background: black;
+}
+
+#main {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+  width: 1000px;
+}
+
+#main > div {
+  /* margin: 0 auto; */
+  /* text-align: center; */
+  height: 100%;
+  width: 1000px;
+  background-image: url(../../assets/image/mainlogo2.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -46,7 +64,7 @@ p {
   /* left: 50%; */
   height: 20vh;
   width: 20%;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 p>h5 {
