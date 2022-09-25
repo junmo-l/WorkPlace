@@ -129,7 +129,7 @@
         </div>
       </div>
     </div>
-    <!-- <div id="page_nav">
+    <div id="page_nav">
       <nav aria-label="Page navigation example">
         <ul class="pagination">
           <li class="page-item">
@@ -140,6 +140,8 @@
           <li class="page-item"><a class="page-link" href="#">1</a></li>
           <li class="page-item"><a class="page-link" href="#">2</a></li>
           <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
           <li class="page-item">
             <a class="page-link" href="#" aria-label="Next">
               <span aria-hidden="true">&raquo;</span>
@@ -147,7 +149,7 @@
           </li>
         </ul>
       </nav>
-    </div> -->
+    </div>
   </article>
   </div>
 </template>
@@ -169,10 +171,8 @@ export default {
 
 <style scoped>
 article {
-  /* line-height: 150px; */
   height: 30vh;
   width: 100%;
-  /* background-color: bisque; */
   margin-bottom: 20px;
 }
 
@@ -191,9 +191,13 @@ article {
 }
 
 #page_nav {
-  /* position: relative; */
-  /* float: left; */
-  /* left: 45%; */
+  /* text-align: center; */
+  float: right;
+  clear: both;
+  margin-right: 10px;
+}
+.page-link{
+  color: black;
 }
 .btn-primary{
   background-color: black;
