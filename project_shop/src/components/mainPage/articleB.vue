@@ -8,7 +8,7 @@
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <router-link to="/articleBSub"><a href="#" class="btn btn-primary">Go somewhere</a></router-link>
         </div>
       </div>
       <div class="card" style="width: 19rem; height: 25rem;">
@@ -179,6 +179,7 @@ article {
 .card {
   float: left;
   margin: 50px 36px 15px 20px ;
+  box-shadow: 1px 1px 2px lightgray;
 }
 
 .card:nth-child(1),

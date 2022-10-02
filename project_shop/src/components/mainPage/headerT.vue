@@ -77,25 +77,30 @@ export default {
 <style scoped>
 .top-logo {
   /* padding: 10px; */
-  /* background-color: antiquewhite; */
+  background-color: black;
   text-align: left;
-  font-size: 50px;
+  font-size: 30px;
+  height: 80px;
 }
 
 .top-logo>ul {
   /* list-style: none; */
-  margin: 0px 0px 10px 20px;
+  position: relative;
+  top: 10px;
+  margin: 0px 0px 10px 10px;
   padding: 0px;
+  /* background: black; */
 }
 
 .top-logo>ul>li {
-  background-image: url(../../assets/image/logo1.png);
+  background-image: url(../../assets/image/그림1.png);
   background-repeat: no-repeat;
-  /* line-height: 40px; */
+  line-height: 60px;
   /* 줄간격 */
   background-position: left center;
   background-size: contain;
-  padding-left: 100px;
+  padding-left: 70px;
+  color: white;
 }
 
 .d-flex {
